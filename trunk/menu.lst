@@ -1,0 +1,8 @@
+default		0
+timeout		1
+
+title		Modulus
+root		(hd0,0)
+kernel		/boot/kernel0
+boot
+

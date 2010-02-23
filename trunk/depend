@@ -1,0 +1,89 @@
+boot.o: /home/eds/projects/kernel/current/src/sys/boot.S \
+  /home/eds/projects/kernel/current/src/sys/system.h \
+  /home/eds/projects/kernel/current/src/sys/i386.h \
+  /home/eds/projects/kernel/current/src/sys/debug.h \
+  /home/eds/projects/kernel/current/src/multiboot.h \
+  /home/eds/projects/kernel/current/src/basicvid.h \
+  /home/eds/projects/kernel/current/src/gdt.h
+isr.o: /home/eds/projects/kernel/current/src/sys/isr.S \
+  /home/eds/projects/kernel/current/src/sys/system.h \
+  /home/eds/projects/kernel/current/src/sys/i386.h \
+  /home/eds/projects/kernel/current/src/sys/debug.h \
+  /home/eds/projects/kernel/current/src/gdt.h \
+  /home/eds/projects/kernel/current/src/basicvid.h
+irq.o: /home/eds/projects/kernel/current/src/sys/irq.S \
+  /home/eds/projects/kernel/current/src/sys/system.h \
+  /home/eds/projects/kernel/current/src/sys/i386.h \
+  /home/eds/projects/kernel/current/src/sys/debug.h \
+  /home/eds/projects/kernel/current/src/gdt.h
+basicvid.o: /home/eds/projects/kernel/current/src/basicvid.c \
+  /home/eds/projects/kernel/current/src/basicvid.h \
+  /home/eds/projects/kernel/current/src/sys/system.h \
+  /home/eds/projects/kernel/current/src/sys/types.h \
+  /home/eds/projects/kernel/current/src/sys/i386.h \
+  /home/eds/projects/kernel/current/src/sys/debug.h \
+  /home/eds/projects/kernel/current/src/basicvid.h \
+  /home/eds/projects/kernel/current/src/string.h
+handlers.o: /home/eds/projects/kernel/current/src/handlers.c \
+  /home/eds/projects/kernel/current/src/handlers.h \
+  /home/eds/projects/kernel/current/src/sys/system.h \
+  /home/eds/projects/kernel/current/src/sys/types.h \
+  /home/eds/projects/kernel/current/src/sys/i386.h \
+  /home/eds/projects/kernel/current/src/sys/debug.h \
+  /home/eds/projects/kernel/current/src/basicvid.h \
+  /home/eds/projects/kernel/current/src/idt.h \
+  /home/eds/projects/kernel/current/src/basicvid.h
+idt.o: /home/eds/projects/kernel/current/src/idt.c \
+  /home/eds/projects/kernel/current/src/idt.h \
+  /home/eds/projects/kernel/current/src/sys/system.h \
+  /home/eds/projects/kernel/current/src/sys/types.h \
+  /home/eds/projects/kernel/current/src/sys/i386.h \
+  /home/eds/projects/kernel/current/src/sys/debug.h \
+  /home/eds/projects/kernel/current/src/basicvid.h \
+  /home/eds/projects/kernel/current/src/gdt.h
+kernel.o: /home/eds/projects/kernel/current/src/kernel.c \
+  /home/eds/projects/kernel/current/src/sys/system.h \
+  /home/eds/projects/kernel/current/src/sys/types.h \
+  /home/eds/projects/kernel/current/src/sys/i386.h \
+  /home/eds/projects/kernel/current/src/sys/debug.h \
+  /home/eds/projects/kernel/current/src/basicvid.h \
+  /home/eds/projects/kernel/current/src/basicvid.h \
+  /home/eds/projects/kernel/current/src/math.h
+memmap.o: /home/eds/projects/kernel/current/src/memmap.c \
+  /home/eds/projects/kernel/current/src/memmap.h \
+  /home/eds/projects/kernel/current/src/sys/system.h \
+  /home/eds/projects/kernel/current/src/sys/types.h \
+  /home/eds/projects/kernel/current/src/sys/i386.h \
+  /home/eds/projects/kernel/current/src/sys/debug.h \
+  /home/eds/projects/kernel/current/src/basicvid.h \
+  /home/eds/projects/kernel/current/src/basicvid.h \
+  /home/eds/projects/kernel/current/src/math.h \
+  /home/eds/projects/kernel/current/src/multiboot.h \
+  /home/eds/projects/kernel/current/src/page.h
+page.o: /home/eds/projects/kernel/current/src/page.c \
+  /home/eds/projects/kernel/current/src/page.h \
+  /home/eds/projects/kernel/current/src/sys/system.h \
+  /home/eds/projects/kernel/current/src/sys/types.h \
+  /home/eds/projects/kernel/current/src/sys/i386.h \
+  /home/eds/projects/kernel/current/src/sys/debug.h \
+  /home/eds/projects/kernel/current/src/basicvid.h \
+  /home/eds/projects/kernel/current/src/math.h \
+  /home/eds/projects/kernel/current/src/memmap.h \
+  /home/eds/projects/kernel/current/src/stack.h \
+  /home/eds/projects/kernel/current/src/basicvid.h
+string.o: /home/eds/projects/kernel/current/src/string.c \
+  /home/eds/projects/kernel/current/src/string.h \
+  /home/eds/projects/kernel/current/src/sys/system.h \
+  /home/eds/projects/kernel/current/src/sys/types.h \
+  /home/eds/projects/kernel/current/src/sys/i386.h \
+  /home/eds/projects/kernel/current/src/sys/debug.h \
+  /home/eds/projects/kernel/current/src/basicvid.h
+timer.o: /home/eds/projects/kernel/current/src/timer.c \
+  /home/eds/projects/kernel/current/src/timer.h \
+  /home/eds/projects/kernel/current/src/sys/system.h \
+  /home/eds/projects/kernel/current/src/sys/types.h \
+  /home/eds/projects/kernel/current/src/sys/i386.h \
+  /home/eds/projects/kernel/current/src/sys/debug.h \
+  /home/eds/projects/kernel/current/src/basicvid.h \
+  /home/eds/projects/kernel/current/src/handlers.h \
+  /home/eds/projects/kernel/current/src/basicvid.h
